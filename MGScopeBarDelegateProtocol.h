@@ -61,7 +61,7 @@ typedef enum _MGScopeBarGroupSelectionMode {
 // Notification methods.
 
 @optional
-- (void)scopeBar:(MGScopeBar *)theScopeBar selectedStateChanged:(BOOL)selected forItem:(NSString *)identifier inGroup:(int)groupNumber;
+- (void)scopeBar:(MGScopeBar *)theScopeBar selectedStateChanged:(BOOL)selected forItem:(NSString *)identifier inGroup:(NSInteger)groupNumber;
 
 
 @end
